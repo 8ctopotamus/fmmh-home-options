@@ -1,16 +1,5 @@
 <?php
 
-// if(isset($_POST["submit"])) {
-//   $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-//   if($check !== false) {
-//       echo "File is an image - " . $check["mime"] . ".";
-//       $uploadOk = 1;
-//   } else {
-//       echo "File is not an image.";
-//       $uploadOk = 0;
-//   }
-// }
-
 function get_post_id_by_slug( $slug, $post_type = "post" ) {
   $query = new WP_Query(
   array(
@@ -41,6 +30,9 @@ function save_custom_postmeta($data) {
   // Add the new data
   foreach($data as $key => $val) {
     $id = get_post_id_by_slug($key, 'product');
+
+    var_dump($val);
+
     add_post_meta($id, FMMH_OPTION_METAKEY, $val, false);
   }
 }
@@ -62,13 +54,11 @@ function parse_csv($fileHandle) {
         'length' => $row[7],
         'width' => $row[8],
       ];
-
       if (!isset($data[$slug][$option])) {
         $data[$slug][$option] = [
           'choices' => []
         ];
       }
-
       $data[$slug][$option]['choices'][] = $choice;
     }
     $count++;
@@ -77,12 +67,17 @@ function parse_csv($fileHandle) {
 }
 
 function upload_csv() {
-  if ($_FILES) {
+  if( isset($_POST["submit"]) && $_FILES['csv_file']['size'] > 0 ) {
     $csv = $_FILES['csv_file']['tmp_name'];
     $fileHandle = fopen($csv, "r");
     $formattedCSVData = parse_csv($fileHandle);
     save_custom_postmeta($formattedCSVData);
+  } else {
+    echo 'Server error.';
+    http_response_code(500);
   }
+  header('Location: ' . $_SERVER['HTTP_REFERER']);
+  exit;  
 }
 
 function render_CSV_table($filepath) {
@@ -100,3 +95,5 @@ function render_CSV_table($filepath) {
   $html .= '<table>';
   return $html;
 }
+
+
