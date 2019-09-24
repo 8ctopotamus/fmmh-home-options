@@ -1,5 +1,7 @@
 <?php 
 
+define('FMMH_OPTION_METAKEY', '_fmmhCustomHomeOptions');
+
 /*
 ** Set up wp_ajax requests for frontend UI.
 ** NOTE: _nopriv_ makes ajaxurl work for logged out users.
@@ -9,8 +11,6 @@ add_action( 'wp_ajax_fmmh_home_options_actions', 'fmmh_home_options_actions' );
 function fmmh_home_options_actions() {
   include( plugin_dir_path( __DIR__ ) . 'inc/actions.php' );
 }
-
-
 
 /*
  * Admin scripts and styles

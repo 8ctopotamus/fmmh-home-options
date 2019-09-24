@@ -1,6 +1,6 @@
 <?php
 
-$customOptions = get_post_meta($postId, $metaKey, $metaVal);
+$customOptions = get_post_meta($postId, FMMH_OPTION_METAKEY, $metaVal);
 
 ?>
 
@@ -13,19 +13,19 @@ $customOptions = get_post_meta($postId, $metaKey, $metaVal);
 <table class="widefat">
   <tbody>
     <?php
-      foreach($customOptions as $option) {
-        echo '<tr>';
-        echo '<td><h5>' . $option['name'] . '</h5></td>';
-        echo '</tr>';
-        echo '<tr>';
-        foreach ($option['choices'] as $choice) {
-          echo '<td>' . $choice['name'] . '</td>';
-          echo '<td>' . $choice['description'] . '</td>';
-          echo '<td>' . $choice['price'] . '</td>';
-        }
-        echo '</tr>';
-      }
-      // var_dump($customOptions);  
+      // foreach($customOptions as $option) {
+        // echo '<tr>';
+        // echo '<td><h5>' . $option['name'] . '</h5></td>';
+        // echo '</tr>';
+        // echo '<tr>';
+        // foreach ($option['choices'] as $choice) {
+        //   echo '<td>' . $choice['name'] . '</td>';
+        //   echo '<td>' . $choice['description'] . '</td>';
+        //   echo '<td>' . $choice['price'] . '</td>';
+        // }
+        // echo '</tr>';
+      // }
+      var_dump($customOptions);  
     ?>
   </tbody>
 </table>
