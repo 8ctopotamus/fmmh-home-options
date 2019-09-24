@@ -1,0 +1,14 @@
+.home {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.option-title {
+  font-size: 1rem;
+}
+
+.edit form input {
+  display: block;
+}

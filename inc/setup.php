@@ -15,12 +15,15 @@ function fmmh_home_options_actions() {
 /*
  * Admin scripts and styles
  */
-// function tpeo_wp_admin_assets( $hook ) {
-//   wp_register_style('tpeo_admin_styles', plugin_dir_url( __DIR__ ) . '/css/admin.css', false, '1.0.0');
-//   wp_register_script('tpeo_admin_js', plugin_dir_url( __DIR__ ) . '/js/admin.js', '', '', true);
-//   if ( $hook === 'woocommerce_page_thinkpawsitive-export-orders' ) {
-//     wp_enqueue_style( 'tpeo_admin_styles' );
-//     wp_enqueue_script( 'tpeo_admin_js' );
-//   }
-// }
-// add_action( 'admin_enqueue_scripts', 'tpeo_wp_admin_assets' );
+function fmmh_home_options_wp_admin_assets( $hook ) {
+  wp_register_style('fmmh_home_options_admin_styles', plugin_dir_url( __DIR__ ) . '/css/admin.css', false, '1.0.0');
+  wp_register_script('jeditable', plugin_dir_url( __DIR__ ) . '/node_modules/jquery-jeditable/dist/jquery.jeditable.min.js', array('jquery'), '', true);
+  wp_register_script('fmmh_home_options_admin_js', plugin_dir_url( __DIR__ ) . '/js/admin.js', array('jquery'), '', true);
+
+  if ( $hook === 'woocommerce_page_fmmh-home-options' ) {
+    wp_enqueue_style( 'fmmh_home_options_admin_styles' );
+    wp_enqueue_script( 'jeditable' );
+    wp_enqueue_script( 'fmmh_home_options_admin_js' );
+  }
+}
+add_action( 'admin_enqueue_scripts', 'fmmh_home_options_wp_admin_assets' );

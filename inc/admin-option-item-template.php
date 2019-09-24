@@ -5,7 +5,7 @@
   <?php 
   $customOptions = get_post_meta(get_the_ID(), FMMH_OPTION_METAKEY, $metaVal);
   foreach($customOptions[0] as $key => $val) { ?>
-    <h4><?php echo $key; ?></h4>
+    <h4 class="option-title"><?php echo $key; ?></h4>
     <table class="widefat">
       <thead>
         <tr>
@@ -22,13 +22,13 @@
         <?php foreach ($val as $option) {
           foreach ($option as $choice) {
             echo '<tr>';
-            echo '<td>' .$choice["choice_name"] . '</td>';
-            echo '<td>' .$choice["choice_description"] . '</td>';
-            echo '<td>' .$choice["price"] . '</td>';
-            echo '<td>' .$choice["image_url"] . '</td>';
-            echo '<td>' .$choice["recommended"] . '</td>';
-            echo '<td>' .$choice["length"] . '</td>';
-            echo '<td>' .$choice["width"] . '</td>';
+            echo '<td class="edit">' . $choice["choice_name"] . '</td>';
+            echo '<td class="edit">' . $choice["choice_description"] . '</td>';
+            echo '<td class="edit">' . $choice["price"] . '</td>';
+            echo '<td class="edit">' . $choice["image_url"] . '</td>';
+            echo '<td class="edit">' . $choice["recommended"] . '</td>';
+            echo '<td class="edit">' . $choice["length"] . '</td>';
+            echo '<td class="edit">' . $choice["width"] . '</td>';
             echo '</tr>';
           }
         } ?>

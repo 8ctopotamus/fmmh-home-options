@@ -5,8 +5,8 @@ add_action('admin_menu', 'fmmh_home_options_admin');
 function fmmh_home_options_admin() {
   add_submenu_page(
     'woocommerce',
-    'FMMH +Options',
-    'FMMH +Options',
+    'FMMH Custom Home Options',
+    'FMMH Custom Home Options',
     'manage_options',
     'fmmh-home-options',
     'fmmh_home_options_admin_html'

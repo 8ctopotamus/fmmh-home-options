@@ -1,0 +1,22 @@
+{
+  "name": "fmmh-home-options",
+  "version": "1.0.0",
+  "description": "Custom postmeta manager",
+  "main": "js/admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ctopotamus/fmmh-home-options.git"
+  },
+  "author": "Zylo <zylo.codes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ctopotamus/fmmh-home-options/issues"
+  },
+  "homepage": "https://github.com/8ctopotamus/fmmh-home-options#readme",
+  "dependencies": {
+    "jquery-jeditable": "^2.0.13"
+  }
+}
