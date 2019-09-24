@@ -35,6 +35,8 @@ function fmmh_home_options_admin_html() {
         <input type="submit" value="Upload CSV" name="submit" class="button button-primary">
       </form>
 
+      <p id="loading">Loading...</p>
+
       <?php
         $args = [
           'post_type' => 'product',

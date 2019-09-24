@@ -1,8 +1,16 @@
+#loading {
+  display: none;
+}
+
 .home {
   background: white;
   border: 1px solid #ddd;
   padding: 12px;
   margin: 12px 0;
+}
+
+.home th {
+  font-weight: bold;
 }
 
 .option-title {
@@ -11,4 +19,14 @@
 
 .edit form input {
   display: block;
+}
+
+.success {
+  background: green;
+  color: white !important;
+}
+
+.failed {
+  background: red;
+  color: white !important;
 }

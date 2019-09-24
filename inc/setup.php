@@ -23,6 +23,9 @@ function fmmh_home_options_wp_admin_assets( $hook ) {
   if ( $hook === 'woocommerce_page_fmmh-home-options' ) {
     wp_enqueue_style( 'fmmh_home_options_admin_styles' );
     wp_enqueue_script( 'jeditable' );
+    wp_localize_script( 'fmmh_home_options_admin_js', 'wp_data', array(
+      'ajax_url' => admin_url( 'admin-ajax.php' ),
+    ) );
     wp_enqueue_script( 'fmmh_home_options_admin_js' );
   }
 }

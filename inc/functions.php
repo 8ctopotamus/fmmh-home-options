@@ -1,5 +1,9 @@
 <?php
 
+function ajax_update_postmetadata() {
+  echo 'Yoyoyo';
+}
+
 function get_post_id_by_slug( $slug, $post_type = "post" ) {
   $query = new WP_Query(
   array(
