@@ -1,6 +1,6 @@
 <?php $slug = get_post_field( 'post_name', get_the_ID() ); ?>
 
-<div id="<?php echo $slug; ?>" class="home">
+<div id="<?php the_ID(); ?>" class="home" data-slug="<?php echo $slug; ?>">
   <a href="<?php the_permalink(); ?>" target="_blank" rel="noopener noreferrer" title="<?php the_title(); ?>">
     <h3><?php the_title(); ?></h3>
   </a>

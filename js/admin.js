@@ -17,12 +17,14 @@
     const propName = $self.data('column');
     const option = $self.closest('.table-wrap').prev('.option-title').text();
     const $home = $self.closest('.home');
-    const slug = $home.attr('id');
+    const id = $home.attr('id');
+    const slug = $home.data('slug');
     const $jsonContainer = $home.find('.json-container');
     const optionsJson = JSON.parse($jsonContainer.text());
 
     optionsJson[0][option][idx][propName] = value;
     params.data = optionsJson;
+    params.post_id = id;
 
     $.post(ajax_url, params, function(response) {
       $self.addClass('success');

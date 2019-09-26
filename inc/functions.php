@@ -1,7 +1,14 @@
 <?php
 
 function ajax_update_postmetadata() {
-  echo 'Yoyoyo';
+  if ( isset($_POST['data']) ) {
+    $post_id = $_POST['post_id'];
+    update_post_meta( $post_id, FMMH_OPTION_METAKEY, $_POST['data'][0] );
+    http_response_code(200);
+  } else {
+    echo 'no data sent';
+    http_response_code(500);
+  }
 }
 
 function get_post_id_by_slug( $slug, $post_type = "post" ) {
