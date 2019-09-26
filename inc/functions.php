@@ -30,13 +30,8 @@ function delete_all_custom_postmeta() {
 }
 
 function save_custom_postmeta($data) {
-  delete_all_custom_postmeta();
-  // Add the new data
   foreach($data as $key => $val) {
     $id = get_post_id_by_slug($key, 'product');
-
-    var_dump($val);
-
     add_post_meta($id, FMMH_OPTION_METAKEY, $val, false);
   }
 }
@@ -59,11 +54,9 @@ function parse_csv($fileHandle) {
         'width' => $row[8],
       ];
       if (!isset($data[$slug][$option])) {
-        $data[$slug][$option] = [
-          'choices' => []
-        ];
+        $data[$slug][$option] = [];
       }
-      $data[$slug][$option]['choices'][] = $choice;
+      $data[$slug][$option][] = $choice;
     }
     $count++;
   }
@@ -71,33 +64,34 @@ function parse_csv($fileHandle) {
 }
 
 function upload_csv() {
-  if( isset($_POST["submit"]) && $_FILES['csv_file']['size'] > 0 ) {
+  if ( isset($_POST["submit"]) && $_FILES['csv_file']['size'] > 0 ) {
     $csv = $_FILES['csv_file']['tmp_name'];
     $fileHandle = fopen($csv, "r");
     $formattedCSVData = parse_csv($fileHandle);
-    save_custom_postmeta($formattedCSVData);
+    delete_all_custom_postmeta(); // Out with the old...
+    save_custom_postmeta($formattedCSVData); //...in with the new.
   } else {
     echo 'Server error.';
     http_response_code(500);
   }
   header('Location: ' . $_SERVER['HTTP_REFERER']);
-  exit;  
+  exit;
 }
 
-function render_CSV_table($filepath) {
-  $fileHandle = fopen($filepath, "r");
-  $html = '<table>';
-  while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
-    $html .= '<tr>';
-    foreach ($row as $col ) {
-      $html .= '<td>';
-      $html .= $col;
-      $html .= '</td>';      
-    }
-    $html .= '</tr>';
-  }
-  $html .= '<table>';
-  return $html;
-}
+// function render_CSV_table($filepath) {
+//   $fileHandle = fopen($filepath, "r");
+//   $html = '<table>';
+//   while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
+//     $html .= '<tr>';
+//     foreach ($row as $col ) {
+//       $html .= '<td>';
+//       $html .= $col;
+//       $html .= '</td>';      
+//     }
+//     $html .= '</tr>';
+//   }
+//   $html .= '<table>';
+//   return $html;
+// }
 
 

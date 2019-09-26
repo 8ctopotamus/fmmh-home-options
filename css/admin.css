@@ -2,11 +2,19 @@
   display: none;
 }
 
+.json-container {
+  display: none;
+}
+
 .home {
   background: white;
   border: 1px solid #ddd;
   padding: 12px;
   margin: 12px 0;
+}
+
+.table-wrap {
+  overflow-x: auto;
 }
 
 .home th {

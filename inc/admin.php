@@ -24,6 +24,7 @@ function fmmh_home_options_admin_html() {
   
   ?>    
     <div class="wrap">
+      <div>
       <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
 
       <form action="<?php echo esc_attr( admin_url( 'admin-ajax.php' ) ); ?>" method="post" enctype="multipart/form-data">
@@ -34,6 +35,7 @@ function fmmh_home_options_admin_html() {
         <input type="file" name="csv_file" id="csv_file">
         <input type="submit" value="Upload CSV" name="submit" class="button button-primary">
       </form>
+      </div>
 
       <p id="loading">Loading...</p>
 
