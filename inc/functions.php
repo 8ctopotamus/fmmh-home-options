@@ -68,8 +68,8 @@ function upload_csv() {
     $csv = $_FILES['csv_file']['tmp_name'];
     $fileHandle = fopen($csv, "r");
     $formattedCSVData = parse_csv($fileHandle);
-    delete_all_custom_postmeta(); // Out with the old...
-    save_custom_postmeta($formattedCSVData); //...in with the new.
+    delete_all_custom_postmeta(); // out with the old...
+    save_custom_postmeta($formattedCSVData); //...in with the new
   } else {
     echo 'Server error.';
     http_response_code(500);

@@ -2,6 +2,15 @@
   display: none;
 }
 
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-flex form {
+  margin-top: 10px;
+}
+
 .json-container {
   display: none;
 }

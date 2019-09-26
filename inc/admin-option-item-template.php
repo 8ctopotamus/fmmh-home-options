@@ -5,16 +5,17 @@
     <h3><?php the_title(); ?></h3>
   </a>
 
-  <?php $customOptions = get_post_meta(get_the_ID(), FMMH_OPTION_METAKEY, $metaVal);
+  <?php $customOptions = get_post_meta(get_the_ID(), FMMH_OPTION_METAKEY, $metaVal); ?>
 
-  // echo '<pre>';
-  // var_dump($customOptions);
-  // echo '</pre>';
-
+  <?php
+    // echo '<pre>';
+    // var_dump($customOptions);
+    // echo '</pre>';
+    // echo '<hr/>';
   ?>
 
   <!-- Used for updating post meta -->
-  <div data-slug="<?php echo $slug; ?>" class="json-container">';
+  <div data-slug="<?php echo $slug; ?>" class="json-container">
     <?php echo json_encode($customOptions); ?>
   </div>
 
@@ -35,16 +36,16 @@
         </thead>
         <tbody>
           <?php 
+            $idx = 0;
             foreach ($choices as $choice) {
-              $idx = 0;
               echo '<tr data-idx="' . $idx . '">';
-              echo '<td class="edit">' . $choice["choice_name"] . '</td>';
-              echo '<td class="edit">' . $choice["choice_description"] . '</td>';
-              echo '<td class="edit">' . $choice["price"] . '</td>';
-              echo '<td class="edit">' . $choice["image_url"] . '</td>';
-              echo '<td class="edit">' . $choice["recommended"] . '</td>';
-              echo '<td class="edit">' . $choice["length"] . '</td>';
-              echo '<td class="edit">' . $choice["width"] . '</td>';
+              echo '<td class="edit" data-column="choice_name">' . $choice["choice_name"] . '</td>';
+              echo '<td class="edit" data-column="choice_description">' . $choice["choice_description"] . '</td>';
+              echo '<td class="edit" data-column="price">' . $choice["price"] . '</td>';
+              echo '<td class="edit" data-column="image_url">' . $choice["image_url"] . '</td>';
+              echo '<td class="edit" data-column="recommended">' . $choice["recommended"] . '</td>';
+              echo '<td class="edit" data-column="length">' . $choice["length"] . '</td>';
+              echo '<td class="edit" data-column="width">' . $choice["width"] . '</td>';
               echo '</tr>';
               $idx++;
             }

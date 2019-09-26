@@ -24,17 +24,16 @@ function fmmh_home_options_admin_html() {
   
   ?>    
     <div class="wrap">
-      <div>
-      <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-
-      <form action="<?php echo esc_attr( admin_url( 'admin-ajax.php' ) ); ?>" method="post" enctype="multipart/form-data">
-        <input type="hidden" name="action" value="fmmh_home_options_actions" />
-        <input type="hidden" name="do" value="upload_csv" />
-        <input type="hidden" name="redirect" value='admin.php?page=fmmh-home-options' />        
-        <label for="csv_file">Select CSV to upload:</label>
-        <input type="file" name="csv_file" id="csv_file">
-        <input type="submit" value="Upload CSV" name="submit" class="button button-primary">
-      </form>
+      <div class="header-flex">
+        <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
+        <form action="<?php echo esc_attr( admin_url( 'admin-ajax.php' ) ); ?>" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="action" value="fmmh_home_options_actions" />
+          <input type="hidden" name="do" value="upload_csv" />
+          <input type="hidden" name="redirect" value='admin.php?page=fmmh-home-options' />        
+          <label for="csv_file">Select CSV to upload:</label>
+          <input type="file" name="csv_file" id="csv_file">
+          <input type="submit" value="Upload CSV" name="submit" class="button button-primary">
+        </form>
       </div>
 
       <p id="loading">Loading...</p>
@@ -63,6 +62,7 @@ function fmmh_home_options_admin_html() {
           echo  '<p>No home options found.</p>';
         endif; 
       ?>
+    
     </div> <!-- /.wrap -->
   <?php 
 }

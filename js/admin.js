@@ -11,22 +11,32 @@
   };
 
   function handleCellEdit(value, settings) {
-    setLoading(true);
-    var $self = $(this);
-    // params.cellId = cell.id
-    params.value = value
-    // // save file
+    setLoading(true);    
+    const $self = $(this);
+    const idx = $self.parent().data('idx');
+    const propName = $self.data('column');
+    const option = $self.closest('.table-wrap').prev('.option-title').text();
+    const $home = $self.closest('.home');
+    const slug = $home.attr('id');
+    const $jsonContainer = $home.find('.json-container');
+    const optionsJson = JSON.parse($jsonContainer.text());
+
+    optionsJson[0][option][idx][propName] = value;
+    params.data = optionsJson;
+
     $.post(ajax_url, params, function(response) {
-      $self.addClass('success')
-      // console.info('Response: ', response)
-      setTimeout(() => $self.removeClass('success'), 1000)
+      $self.addClass('success');
+      $jsonContainer.text(JSON.stringify(optionsJson));
+      console.info('Response: ', response);
+      setTimeout(() => $self.removeClass('success'), 1000);
     })
     .fail(function(err) {
-      $self.addClass('failed')
-      console.info('Error: ', err)
-      setTimeout(() => $self.removeClass('failed'), 1000)
+      $self.addClass('failed');
+      console.info('Error: ', err);
+      setTimeout(() => $self.removeClass('failed'), 1000);
     })
     .done(() => setLoading(false));
+
     return value;
   };
 
@@ -34,4 +44,5 @@
     cancel    : 'Cancel',
     submit    : 'Save',
   });
+
 })(jQuery);
