@@ -1,0 +1,55 @@
+slug,option,choice_name,choice_description,price,image_url,standard,call_for_price,length,width
+
+tru-homes-bliss,Siding,Standard Vinyl,Standard vinyl siding,0,,true,,56,14
+
+tru-homes-bliss,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,,,,56,14
+
+tru-homes-bliss,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1395,,,,56,14
+
+tru-homes-bliss,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,,true,,56,14
+
+tru-homes-bliss,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,,,,56,14
+
+tru-homes-bliss,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,true,,56,14
+
+tru-homes-bliss,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",475,,,,56,14
+
+tru-homes-bliss,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",650,,,,56,14
+
+tru-homes-bliss,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,,true,,56,14
+
+tru-homes-bliss,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,,,,56,14
+
+tru-homes-bliss,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,,true,,56,14
+
+tru-homes-bliss,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,,,,56,14
+
+tru-homes-bliss,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,,true,,56,14
+
+tru-homes-bliss,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,,,56,14
+
+tru-homes-bliss,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,true,,56,14
+
+tru-homes-bliss,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,,true,56,14
+
+tru-homes-bliss,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,,true,56,14
+
+clayton-aimee-28x56,Siding,Standard Vinyl,Standard vinyl siding,0,,true,,56,28
+
+clayton-aimee-28x56,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,,,,56,28
+
+clayton-aimee-28x56,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,true,,56,28
+
+clayton-aimee-28x56,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,,,56,28
+
+clayton-aimee-28x56,Washer,None,Water and drain hookups will be ready for you.,0,,true,,56,28
+
+clayton-aimee-28x56,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,,,,56,28
+
+clayton-aimee-28x56,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,true,,56,28
+
+clayton-aimee-28x56,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,,,,56,28
+
+clayton-aimee-28x56,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,,true,,56,28
+
+clayton-aimee-28x56,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,,,,56,28

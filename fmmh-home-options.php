@@ -11,6 +11,6 @@
 */
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-include 'inc/setup.php';
+include 'inc/init.php';
 include 'inc/functions.php';
 include 'inc/admin.php';

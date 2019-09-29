@@ -12,13 +12,12 @@ function ajax_update_postmetadata() {
 }
 
 function get_post_id_by_slug( $slug, $post_type = "post" ) {
-  $query = new WP_Query(
-  array(
-    'name'   => $slug,
-    'post_type'   => $post_type,
+  $query = new WP_Query( [
+    'name' => $slug,
+    'post_type' => $post_type,
     'numberposts' => 1,
     'fields'      => 'ids',
-  ) );
+  ] );
   $posts = $query->get_posts();
   return array_shift( $posts );
 }
@@ -44,30 +43,30 @@ function save_custom_postmeta($data) {
 }
 
 function parse_csv($fileHandle) {
-  $data = [];
+  $headers = [];
+  $result = [];
   $count = 0;
   while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
-    // skip headers row
     if ($count > 0) {
       $slug = $row[0];
+      if (!$slug) continue;
       $option = $row[1];
-      $choice = [
-        'choice_name' => $row[2],
-        'choice_description' => $row[3],
-        'price' => $row[4],
-        'image_url' => $row[5],
-        'recommended' => $row[6],
-        'length' => $row[7],
-        'width' => $row[8],
-      ];
-      if (!isset($data[$slug][$option])) {
-        $data[$slug][$option] = [];
+      $choice = [];
+      for ($i = 2; $i < count($headers); $i++) {
+        if ( isset($row[$i]) ) {
+          $choice[$headers[$i]] = $row[$i];
+        }
       }
-      $data[$slug][$option][] = $choice;
+      if (!isset($result[$slug][$option])) {
+        $result[$slug][$option] = [];
+      }
+      $result[$slug][$option][] = $choice;
+    } else {
+      $headers = $row;
     }
     $count++;
   }
-  return $data;
+  return $result;
 }
 
 function upload_csv() {
@@ -78,13 +77,14 @@ function upload_csv() {
     delete_all_custom_postmeta(); // out with the old...
     save_custom_postmeta($formattedCSVData); //...in with the new
   } else {
-    echo 'Server error.';
+    echo 'No CSV provided.';
     http_response_code(500);
   }
   header('Location: ' . $_SERVER['HTTP_REFERER']);
   exit;
 }
 
+// NOTE: use this to see the CSV data
 // function render_CSV_table($filepath) {
 //   $fileHandle = fopen($filepath, "r");
 //   $html = '<table>';
