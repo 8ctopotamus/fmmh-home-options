@@ -42,15 +42,6 @@
               } 
               echo '</tr>';
 
-              // echo '<tr data-idx="' . $idx . '">';
-              //   echo '<td class="edit" data-column="choice_name">' . $choice["choice_name"] . '</td>';
-              //   echo '<td class="edit" data-column="choice_description">' . $choice["choice_description"] . '</td>';
-              //   echo '<td class="edit" data-column="price">' . $choice["price"] . '</td>';
-              //   echo '<td class="edit" data-column="image_url">' . $choice["image_url"] . '</td>';
-              //   echo '<td class="edit" data-column="recommended">' . $choice["recommended"] . '</td>';
-              //   echo '<td class="edit" data-column="length">' . $choice["length"] . '</td>';
-              //   echo '<td class="edit" data-column="width">' . $choice["width"] . '</td>';
-              // echo '</tr>';
               $idx++;
             }
           ?>
