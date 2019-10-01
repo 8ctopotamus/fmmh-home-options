@@ -54,6 +54,10 @@ function parse_csv($fileHandle) {
       $choice = [];
       for ($i = 2; $i < count($headers); $i++) {
         if ( isset($row[$i]) ) {
+          if ($headers[$i] === 'price' && $row[$i] === '') {
+            $choice[$headers[$i]] = "Please call for pricing.";
+            continue;
+          } 
           $choice[$headers[$i]] = $row[$i];
         }
       }
@@ -66,6 +70,9 @@ function parse_csv($fileHandle) {
     }
     $count++;
   }
+
+  var_dump($result);
+
   return $result;
 }
 

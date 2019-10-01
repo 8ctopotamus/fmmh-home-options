@@ -1,55 +1,297 @@
-slug,option,choice_name,choice_description,price,image_url,standard,call_for_price,length,width
-
-tru-homes-bliss,Siding,Standard Vinyl,Standard vinyl siding,0,,true,,56,14
-
-tru-homes-bliss,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,,,,56,14
-
-tru-homes-bliss,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1395,,,,56,14
-
-tru-homes-bliss,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,,true,,56,14
-
-tru-homes-bliss,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,,,,56,14
-
-tru-homes-bliss,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,true,,56,14
-
-tru-homes-bliss,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",475,,,,56,14
-
-tru-homes-bliss,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",650,,,,56,14
-
-tru-homes-bliss,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,,true,,56,14
-
-tru-homes-bliss,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,,,,56,14
-
-tru-homes-bliss,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,,true,,56,14
-
-tru-homes-bliss,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,,,,56,14
-
-tru-homes-bliss,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,,true,,56,14
-
-tru-homes-bliss,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,,,56,14
-
-tru-homes-bliss,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,true,,56,14
-
-tru-homes-bliss,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,,true,56,14
-
-tru-homes-bliss,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,,true,56,14
-
-clayton-aimee-28x56,Siding,Standard Vinyl,Standard vinyl siding,0,,true,,56,28
-
-clayton-aimee-28x56,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,,,,56,28
-
-clayton-aimee-28x56,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,true,,56,28
-
-clayton-aimee-28x56,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,,,56,28
-
-clayton-aimee-28x56,Washer,None,Water and drain hookups will be ready for you.,0,,true,,56,28
-
-clayton-aimee-28x56,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,,,,56,28
-
-clayton-aimee-28x56,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,true,,56,28
-
-clayton-aimee-28x56,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,,,,56,28
-
-clayton-aimee-28x56,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,,true,,56,28
-
-clayton-aimee-28x56,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,,,,56,28
+slug,option,choice_name,choice_description,price,image_url,length,width,Manufacturer,Option Order
+tru-homes-bliss,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,14,TRU,1
+tru-homes-bliss,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,14,TRU,1
+tru-homes-bliss,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1395,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,56,14,TRU,1
+tru-homes-bliss,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,56,14,TRU,2
+tru-homes-bliss,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,56,14,TRU,2
+tru-homes-bliss,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,56,14,TRU,3
+tru-homes-bliss,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",475,,56,14,TRU,3
+tru-homes-bliss,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",650,,56,14,TRU,3
+tru-homes-bliss,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,56,14,TRU,4
+tru-homes-bliss,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,56,14,TRU,4
+tru-homes-bliss,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,56,14,TRU,5
+tru-homes-bliss,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,56,14,TRU,5
+tru-homes-bliss,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Living-Room-Light.jpg,56,14,TRU,6
+tru-homes-bliss,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,56,14,TRU,6
+tru-homes-bliss,Gas Option,None,Standard heating and an electric range,0,,56,14,TRU,7
+tru-homes-bliss,Gas Option,Range and Furnace,Gas furnace and a gas range,,,56,14,TRU,7
+tru-homes-bliss,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,56,14,TRU,8
+tru-homes-bliss,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,56,14,TRU,8
+tru-homes-bliss,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,56,14,TRU,8
+clayton-aimee-28x56,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,28,Clayton NXT,1
+clayton-aimee-28x56,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,56,28,Clayton NXT,1
+clayton-aimee-28x56,Exterior Walls,Standard,2X4 Studs in the exterior Walls with R-13 insulation,0,,56,28,Clayton NXT,2
+clayton-aimee-28x56,Exterior Walls,2X6 Studs,Extra Durability and R-19 Insulation for the exterior walls ,999,,56,28,Clayton NXT,2
+clayton-aimee-28x56,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,56,28,Clayton NXT,3
+clayton-aimee-28x56,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,56,28,Clayton NXT,3
+clayton-aimee-28x56,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,56,28,Clayton NXT,4
+clayton-aimee-28x56,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,56,28,Clayton NXT,4
+clayton-aimee-28x56,Washer,None,Water and drain hookups will be ready for you.,0,,56,28,Clayton NXT,5
+clayton-aimee-28x56,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Washer.png,56,28,Clayton NXT,5
+clayton-aimee-28x56,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,56,28,Clayton NXT,6
+clayton-aimee-28x56,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Dryer.png,56,28,Clayton NXT,6
+clayton-aimee-28x56,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-No-Blinds.jpg,56,28,Clayton NXT,7
+clayton-aimee-28x56,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-with-Blinds.jpg,56,28,Clayton NXT,7
+tru-homes-delight,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,60,14,TRU,1
+tru-homes-delight,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,60,14,TRU,1
+tru-homes-delight,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1395,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,60,14,TRU,1
+tru-homes-delight,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,60,14,TRU,2
+tru-homes-delight,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,60,14,TRU,2
+tru-homes-delight,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,60,14,TRU,3
+tru-homes-delight,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",475,,60,14,TRU,3
+tru-homes-delight,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",650,,60,14,TRU,3
+tru-homes-delight,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,60,14,TRU,4
+tru-homes-delight,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,60,14,TRU,4
+tru-homes-delight,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,60,14,TRU,5
+tru-homes-delight,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,60,14,TRU,5
+tru-homes-delight,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Living-Room-Light.jpg,60,14,TRU,6
+tru-homes-delight,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,60,14,TRU,6
+tru-homes-delight,Gas Option,None,Standard heating and an electric range,0,,60,14,TRU,7
+tru-homes-delight,Gas Option,Range and Furnace,Gas furnace and a gas range,,,60,14,TRU,7
+tru-homes-delight,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,60,14,TRU,8
+tru-homes-delight,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,60,14,TRU,8
+tru-homes-delight,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,60,14,TRU,8
+tru-homes-elation,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,66,14,TRU,1
+tru-homes-elation,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,66,14,TRU,1
+tru-homes-elation,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1395,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,66,14,TRU,1
+tru-homes-elation,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,66,14,TRU,2
+tru-homes-elation,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,66,14,TRU,2
+tru-homes-elation,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,66,14,TRU,3
+tru-homes-elation,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",525,,66,14,TRU,3
+tru-homes-elation,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",650,,66,14,TRU,3
+tru-homes-elation,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,66,14,TRU,4
+tru-homes-elation,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,66,14,TRU,4
+tru-homes-elation,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,66,14,TRU,5
+tru-homes-elation,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,66,14,TRU,5
+tru-homes-elation,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Living-Room-Light.jpg,66,14,TRU,6
+tru-homes-elation,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,66,14,TRU,6
+tru-homes-elation,Gas Option,None,Standard heating and an electric range,0,,66,14,TRU,7
+tru-homes-elation,Gas Option,Range and Furnace,Gas furnace and a gas range,,,66,14,TRU,7
+tru-homes-elation,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,66,14,TRU,8
+tru-homes-elation,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,66,14,TRU,8
+tru-homes-elation,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,66,14,TRU,8
+tru-homes-glory,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,14,TRU,1
+tru-homes-glory,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,800,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,14,TRU,1
+tru-homes-glory,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1495,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,76,14,TRU,1
+tru-homes-glory,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,76,14,TRU,2
+tru-homes-glory,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,76,14,TRU,2
+tru-homes-glory,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,76,14,TRU,3
+tru-homes-glory,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",575,,76,14,TRU,3
+tru-homes-glory,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",750,,76,14,TRU,3
+tru-homes-glory,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,76,14,TRU,4
+tru-homes-glory,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,200,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,76,14,TRU,4
+tru-homes-glory,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,76,14,TRU,5
+tru-homes-glory,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,76,14,TRU,5
+tru-homes-glory,Living Room Light,Light Fixture Only,Standard Light Fixture is installed.  It is not suitable to later install a ceiling fan without additional bracing.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Living-Room-Light.jpg,76,14,TRU,6
+tru-homes-glory,Living Room Light,Ceiling Fan Ready (Wire and Brace installed),Extra wiring and bracing installed ready for a ceiling fan to be installed by the homeowner.  A standard Light fixture will be in be installed in the living room.,50,,76,14,TRU,6
+tru-homes-glory,Gas Option,None,Standard heating and an electric range,0,,76,14,TRU,7
+tru-homes-glory,Gas Option,Range and Furnace,Gas furnace and a gas range,,,76,14,TRU,7
+tru-homes-glory,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,76,14,TRU,8
+tru-homes-glory,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,76,14,TRU,8
+tru-homes-glory,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,76,14,TRU,8
+the-tru-homes-excitement,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,44,28,TRU,1
+the-tru-homes-excitement,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,44,28,TRU,1
+the-tru-homes-excitement,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1545,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,44,28,TRU,1
+the-tru-homes-excitement,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+the-tru-homes-excitement,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+the-tru-homes-excitement,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,44,28,TRU,3
+the-tru-homes-excitement,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,44,28,TRU,3
+the-tru-homes-excitement,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,44,28,TRU,4
+the-tru-homes-excitement,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",700,,44,28,TRU,4
+the-tru-homes-excitement,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",850,,44,28,TRU,4
+the-tru-homes-excitement,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,44,28,TRU,5
+the-tru-homes-excitement,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,44,28,TRU,5
+the-tru-homes-excitement,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,44,28,TRU,6
+the-tru-homes-excitement,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,44,28,TRU,6
+the-tru-homes-excitement,Gas Option,None,Standard heating and an electric range,0,,44,28,TRU,7
+the-tru-homes-excitement,Gas Option,Range and Furnace,Gas furnace and a gas range,,,44,28,TRU,7
+the-tru-homes-excitement,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,44,28,TRU,8
+the-tru-homes-excitement,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,44,28,TRU,8
+the-tru-homes-excitement,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,44,28,TRU,8
+tru-homes-satisfaction,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,48,28,TRU,1
+tru-homes-satisfaction,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,700,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,48,28,TRU,1
+tru-homes-satisfaction,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1545,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,48,28,TRU,1
+tru-homes-satisfaction,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-homes-satisfaction,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-homes-satisfaction,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,48,28,TRU,3
+tru-homes-satisfaction,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,48,28,TRU,3
+tru-homes-satisfaction,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,48,28,TRU,4
+tru-homes-satisfaction,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",700,,48,28,TRU,4
+tru-homes-satisfaction,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",850,,48,28,TRU,4
+tru-homes-satisfaction,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,48,28,TRU,5
+tru-homes-satisfaction,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,48,28,TRU,5
+tru-homes-satisfaction,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,48,28,TRU,6
+tru-homes-satisfaction,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,48,28,TRU,6
+tru-homes-satisfaction,Gas Option,None,Standard heating and an electric range,0,,48,28,TRU,7
+tru-homes-satisfaction,Gas Option,Range and Furnace,Gas furnace and a gas range,,,48,28,TRU,7
+tru-homes-satisfaction,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,48,28,TRU,8
+tru-homes-satisfaction,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,48,28,TRU,8
+tru-homes-satisfaction,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,48,28,TRU,8
+tru-homes-thrill,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,28,TRU,1
+tru-homes-thrill,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,800,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,28,TRU,1
+tru-homes-thrill,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1795,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,56,28,TRU,1
+tru-homes-thrill,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-homes-thrill,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-homes-thrill,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,56,28,TRU,3
+tru-homes-thrill,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,56,28,TRU,3
+tru-homes-thrill,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,56,28,TRU,4
+tru-homes-thrill,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",800,,56,28,TRU,4
+tru-homes-thrill,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",950,,56,28,TRU,4
+tru-homes-thrill,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,56,28,TRU,5
+tru-homes-thrill,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,56,28,TRU,5
+tru-homes-thrill,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,56,28,TRU,6
+tru-homes-thrill,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,56,28,TRU,6
+tru-homes-thrill,Gas Option,None,Standard heating and an electric range,0,,56,28,TRU,7
+tru-homes-thrill,Gas Option,Range and Furnace,Gas furnace and a gas range,,,56,28,TRU,7
+tru-homes-thrill,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,56,28,TRU,8
+tru-homes-thrill,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,56,28,TRU,8
+tru-homes-thrill,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,56,28,TRU,8
+tru-homes-marvel,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,28,TRU,1
+tru-homes-marvel,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,800,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,56,28,TRU,1
+tru-homes-marvel,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1795,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,56,28,TRU,1
+tru-homes-marvel,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-homes-marvel,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-homes-marvel,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,56,28,TRU,3
+tru-homes-marvel,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,56,28,TRU,3
+tru-homes-marvel,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,56,28,TRU,4
+tru-homes-marvel,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",800,,56,28,TRU,4
+tru-homes-marvel,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",950,,56,28,TRU,4
+tru-homes-marvel,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,56,28,TRU,5
+tru-homes-marvel,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,56,28,TRU,5
+tru-homes-marvel,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,56,28,TRU,6
+tru-homes-marvel,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,56,28,TRU,6
+tru-homes-marvel,Gas Option,None,Standard heating and an electric range,0,,56,28,TRU,7
+tru-homes-marvel,Gas Option,Range and Furnace,Gas furnace and a gas range,,,56,28,TRU,7
+tru-homes-marvel,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,56,28,TRU,8
+tru-homes-marvel,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,56,28,TRU,8
+tru-homes-marvel,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,56,28,TRU,8
+truehomes-jubilation,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,60,28,TRU,1
+truehomes-jubilation,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,800,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,60,28,TRU,1
+truehomes-jubilation,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1795,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,60,28,TRU,1
+truehomes-jubilation,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+truehomes-jubilation,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+truehomes-jubilation,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,60,28,TRU,3
+truehomes-jubilation,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,60,28,TRU,3
+truehomes-jubilation,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,60,28,TRU,4
+truehomes-jubilation,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",800,,60,28,TRU,4
+truehomes-jubilation,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",950,,60,28,TRU,4
+truehomes-jubilation,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,60,28,TRU,5
+truehomes-jubilation,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,60,28,TRU,5
+truehomes-jubilation,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,60,28,TRU,6
+truehomes-jubilation,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,60,28,TRU,6
+truehomes-jubilation,Gas Option,None,Standard heating and an electric range,0,,60,28,TRU,7
+truehomes-jubilation,Gas Option,Range and Furnace,Gas furnace and a gas range,,,60,28,TRU,7
+truehomes-jubilation,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,60,28,TRU,8
+truehomes-jubilation,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,60,28,TRU,8
+truehomes-jubilation,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,60,28,TRU,8
+tru-homes-pride,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,68,28,TRU,1
+tru-homes-pride,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,900,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,68,28,TRU,1
+tru-homes-pride,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1945,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,68,28,TRU,1
+tru-homes-pride,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-homes-pride,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-homes-pride,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,68,28,TRU,3
+tru-homes-pride,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,68,28,TRU,3
+tru-homes-pride,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,68,28,TRU,4
+tru-homes-pride,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",900,,68,28,TRU,4
+tru-homes-pride,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",1050,,68,28,TRU,4
+tru-homes-pride,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,68,28,TRU,5
+tru-homes-pride,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,68,28,TRU,5
+tru-homes-pride,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,68,28,TRU,6
+tru-homes-pride,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,68,28,TRU,6
+tru-homes-pride,Gas Option,None,Standard heating and an electric range,0,,68,28,TRU,7
+tru-homes-pride,Gas Option,Range and Furnace,Gas furnace and a gas range,,,68,28,TRU,7
+tru-homes-pride,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,68,28,TRU,8
+tru-homes-pride,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,68,28,TRU,8
+tru-homes-pride,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,68,28,TRU,8
+tru-wonder,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,72,28,TRU,1
+tru-wonder,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,900,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,72,28,TRU,1
+tru-wonder,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1945,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,72,28,TRU,1
+tru-wonder,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-wonder,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-wonder,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,72,28,TRU,3
+tru-wonder,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,72,28,TRU,3
+tru-wonder,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,72,28,TRU,4
+tru-wonder,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",900,,72,28,TRU,4
+tru-wonder,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",1050,,72,28,TRU,4
+tru-wonder,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,72,28,TRU,5
+tru-wonder,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,72,28,TRU,5
+tru-wonder,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,72,28,TRU,6
+tru-wonder,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,72,28,TRU,6
+tru-wonder,Gas Option,None,Standard heating and an electric range,0,,72,28,TRU,7
+tru-wonder,Gas Option,Range and Furnace,Gas furnace and a gas range,,,72,28,TRU,7
+tru-wonder,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,72,28,TRU,8
+tru-wonder,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,72,28,TRU,8
+tru-wonder,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,72,28,TRU,8
+tru-homes-triumph,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,28,TRU,1
+tru-homes-triumph,Siding,Standard Vinyl with OSB,Vinyl siding with OSB underneath for extra durability of your home.  We STRONGLY recommend this option if you want vinyl siding.,1000,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,28,TRU,1
+tru-homes-triumph,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",2100,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,76,28,TRU,1
+tru-homes-triumph,Dormer,No Dormer,The roof look is the same for the entire length of the house.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-no-dormer-close.jpg,76,28,TRU,2
+tru-homes-triumph,Dormer,Dormer Above Front Door,16Ft Roof Pitch Above Front Door for a nicer look.,550,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Wonder-exterior-with-dormer-close.jpg,76,28,TRU,2
+tru-homes-triumph,Dishwasher,None,There will be a cabinet instead of a spot for a dishwasher. It is important to note there there will be no hookups for a dishwasher.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/TRU-Cabinet.jpg,76,28,TRU,3
+tru-homes-triumph,Dishwasher,Add Dishwasher,A standard sized dishwasher from Frigidare will be installed.  Color = Black,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/tru-dishwasher.jpg,76,28,TRU,3
+tru-homes-triumph,Insulation,Thermal Zone 2,"R-14 Insulation in attic, R-11 Insulation in walls, and R. 11 insulation in the floor.",0,,76,28,TRU,4
+tru-homes-triumph,Insulation,Thermal Zone 3,"R-30 Insulation in attic, R-11 Insulation in walls, and R. 22 insulation in the floor.  Upgrading your insulation package usually pays for itself in energy bill savings.",1000,,76,28,TRU,4
+tru-homes-triumph,Insulation,Energy Star,"Thermal Zone 3 insulation with Low E thermal pane windows, smart thermostat, & LED Light Bulbs).  Upgrading to the Energy Star package usually pays for itself in energy bill savings.",1250,,76,28,TRU,4
+tru-homes-triumph,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,76,28,TRU,5
+tru-homes-triumph,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,76,28,TRU,5
+tru-homes-triumph,Rear Door,Cottage Style Door,An exterior door that opens directly to the outside,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Cottage-Door.jpg,76,28,TRU,6
+tru-homes-triumph,Rear Door,Standard Door with Storm Door,Storm Door on the exterior with a standard exterior door that opens to the inside,195,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Rear-Door-with-Storm.jpg,76,28,TRU,6
+tru-homes-triumph,Gas Option,None,Standard heating and an electric range,0,,76,28,TRU,7
+tru-homes-triumph,Gas Option,Range and Furnace,Gas furnace and a gas range,,,76,28,TRU,7
+tru-homes-triumph,Wind Zone,Wind Zone I,"Rated for Wind Zone I designated areas, which is a majority of the United States",0,,76,28,TRU,8
+tru-homes-triumph,Wind Zone,Wind Zone II,"Rated for installation in Wind Zone II designated areas.  You can install in Wind Zone I areas.  Because installation costs change depending on location, please call for an exact price.",,,76,28,TRU,8
+tru-homes-triumph,Wind Zone,Wind Zone III,"Rated for installation in Wind Zone III designated areas.  You can install in Wind Zone I or II areas.  Because installation costs change depending on location, please call for an exact price.",,,76,28,TRU,8
+clayton-nxt-annie-16x76,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,16,Clayton NXT,1
+clayton-nxt-annie-16x76,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,76,16,Clayton NXT,1
+clayton-nxt-annie-16x76,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,76,16,Clayton NXT,2
+clayton-nxt-annie-16x76,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,76,16,Clayton NXT,2
+clayton-nxt-annie-16x76,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,76,16,Clayton NXT,3
+clayton-nxt-annie-16x76,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,76,16,Clayton NXT,3
+clayton-nxt-annie-16x76,Washer,None,Water and drain hookups will be ready for you.,0,,76,16,Clayton NXT,4
+clayton-nxt-annie-16x76,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Washer.png,76,16,Clayton NXT,4
+clayton-nxt-annie-16x76,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,76,16,Clayton NXT,5
+clayton-nxt-annie-16x76,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Dryer.png,76,16,Clayton NXT,5
+clayton-nxt-annie-16x76,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-No-Blinds.jpg,76,16,Clayton NXT,6
+clayton-nxt-annie-16x76,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-with-Blinds.jpg,76,16,Clayton NXT,6
+clayton-isabella,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,60,28,Clayton NXT,1
+clayton-isabella,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,60,28,Clayton NXT,1
+clayton-isabella,Exterior Walls,Standard,2X4 Studs in the exterior Walls with R-13 insulation,0,,60,28,Clayton NXT,2
+clayton-isabella,Exterior Walls,2X6 Studs,Extra Durability and R-19 Insulation for the exterior walls ,999,,60,28,Clayton NXT,2
+clayton-isabella,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,60,28,Clayton NXT,3
+clayton-isabella,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,60,28,Clayton NXT,3
+clayton-isabella,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,60,28,Clayton NXT,4
+clayton-isabella,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,60,28,Clayton NXT,4
+clayton-isabella,Washer,None,Water and drain hookups will be ready for you.,0,,60,28,Clayton NXT,5
+clayton-isabella,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Washer.png,60,28,Clayton NXT,5
+clayton-isabella,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,60,28,Clayton NXT,6
+clayton-isabella,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Dryer.png,60,28,Clayton NXT,6
+clayton-isabella,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-No-Blinds.jpg,60,28,Clayton NXT,7
+clayton-isabella,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-with-Blinds.jpg,60,28,Clayton NXT,7
+clayton-amelia-28x68,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,68,28,Clayton NXT,1
+clayton-amelia-28x68,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1399,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,68,28,Clayton NXT,1
+clayton-amelia-28x68,Exterior Walls,Standard,2X4 Studs in the exterior Walls with R-13 insulation,0,,68,28,Clayton NXT,2
+clayton-amelia-28x68,Exterior Walls,2X6 Studs,Extra Durability and R-19 Insulation for the exterior walls ,1299,,68,28,Clayton NXT,2
+clayton-amelia-28x68,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,68,28,Clayton NXT,3
+clayton-amelia-28x68,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,68,28,Clayton NXT,3
+clayton-amelia-28x68,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,68,28,Clayton NXT,4
+clayton-amelia-28x68,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,68,28,Clayton NXT,4
+clayton-amelia-28x68,Washer,None,Water and drain hookups will be ready for you.,0,,68,28,Clayton NXT,5
+clayton-amelia-28x68,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Washer.png,68,28,Clayton NXT,5
+clayton-amelia-28x68,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,68,28,Clayton NXT,6
+clayton-amelia-28x68,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Dryer.png,68,28,Clayton NXT,6
+clayton-amelia-28x68,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-No-Blinds.jpg,68,28,Clayton NXT,7
+clayton-amelia-28x68,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",199,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-with-Blinds.jpg,68,28,Clayton NXT,7
+clayton-nxt-nellie-28x76,Siding,Standard Vinyl,Standard vinyl siding,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Vinyl-Siding.jpg,76,28,Clayton NXT,1
+clayton-nxt-nellie-28x76,Siding,Smart Panel Siding,"Durable and beautiful, this plank siding looks like wood siding, and it will keep your home beautiful for years to come.",1599,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Smart-Panel-Siding.jpg,76,28,Clayton NXT,1
+clayton-nxt-nellie-28x76,Exterior Walls,Standard,2X4 Studs in the exterior Walls with R-13 insulation,0,,76,28,Clayton NXT,2
+clayton-nxt-nellie-28x76,Exterior Walls,2X6 Studs,Extra Durability and R-19 Insulation for the exterior walls ,1299,,76,28,Clayton NXT,2
+clayton-nxt-nellie-28x76,Flooring,Carpet,"Carpet in bedroom and livingroom with Linoleum Floors in the Kitchen, Dining Room, and Bathrooms",0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Carpet-and-linoleum.jpg,76,28,Clayton NXT,3
+clayton-nxt-nellie-28x76,Flooring,Linoleum Throughout,Linoleum Flooring throughout the entire home,450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Linoleum.jpg,76,28,Clayton NXT,3
+clayton-nxt-nellie-28x76,Range,Electric,"A new Frigidaire range comes with your home.  Models are subject to change, so be sure to call for specific information.",0,,76,28,Clayton NXT,4
+clayton-nxt-nellie-28x76,Range,Gas,"Upgrade to a gas range for your home.  Models are subject to change, so be sure to call for specific information.",250,,76,28,Clayton NXT,4
+clayton-nxt-nellie-28x76,Washer,None,Water and drain hookups will be ready for you.,0,,76,28,Clayton NXT,5
+clayton-nxt-nellie-28x76,Washer,Frigidaire Washer,"Get a new Frigidaire Washer with your home.  Models are subject to change, so be sure to call for specific model information.",450,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Washer.png,76,28,Clayton NXT,5
+clayton-nxt-nellie-28x76,Dryer,None,Electric and gas (optional) hookups will be available to you,0,,76,28,Clayton NXT,6
+clayton-nxt-nellie-28x76,Dryer,Frigidaire Dryer,"Get a new Frigidaire Dryer with your home.  Models are subject to change, so be sure to call for specific model information.",350,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Dryer.png,76,28,Clayton NXT,6
+clayton-nxt-nellie-28x76,Mini-Blinds,None,There will be no window treatments installed in your home without choosing the mini-blind upgrade.,0,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-No-Blinds.jpg,76,28,Clayton NXT,7
+clayton-nxt-nellie-28x76,Mini-Blinds,"2"" Mini-Blinds installed","2"" Mini-blinds installed on every window and over the sliding glass door (if you have a sliding door on your home)",,https://www.findmymobilehome.com/wp-content/uploads/2019/09/Window-with-Blinds.jpg,76,28,Clayton NXT,7

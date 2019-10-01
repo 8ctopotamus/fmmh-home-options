@@ -18,7 +18,6 @@
     const option = $self.closest('.table-wrap').prev('.option-title').text();
     const $home = $self.closest('.home');
     const id = $home.attr('id');
-    const slug = $home.data('slug');
     const $jsonContainer = $home.find('.json-container');
     const optionsJson = JSON.parse($jsonContainer.text());
 
@@ -29,7 +28,6 @@
     $.post(ajax_url, params, function(response) {
       $self.addClass('success');
       $jsonContainer.text(JSON.stringify(optionsJson));
-      console.info('Response: ', response);
       setTimeout(() => $self.removeClass('success'), 1000);
     })
     .fail(function(err) {

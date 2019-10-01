@@ -47,3 +47,9 @@
   background: red;
   color: white !important;
 }
+
+@media (max-width: 767px) {
+  .header-flex {
+    display: block;
+  }
+}
