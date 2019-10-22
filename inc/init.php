@@ -4,7 +4,6 @@ define('FMMH_OPTION_METAKEY', '_fmmhCustomHomeOptions');
 
 add_action( 'rest_api_init', 'create_api_posts_meta_field' );
 function create_api_posts_meta_field() {
- // register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
   register_rest_field( 'product', FMMH_OPTION_METAKEY, array(
     'get_callback' => 'get_post_meta_for_api',
     'show_in_rest' => true
@@ -12,8 +11,10 @@ function create_api_posts_meta_field() {
 }
 
 function get_post_meta_for_api( $object ) {
- $post_id = $object['id'];
- return get_post_meta( $post_id );
+  $post_id = $object['id'];
+  $meta = get_post_meta( $post_id )[FMMH_OPTION_METAKEY][0];
+  $json = json_encode(maybe_unserialize( $meta ));
+  return $json;
 }
 
 /*
