@@ -70,9 +70,6 @@ function parse_csv($fileHandle) {
     }
     $count++;
   }
-
-  var_dump($result);
-
   return $result;
 }
 
@@ -91,21 +88,48 @@ function upload_csv() {
   exit;
 }
 
-// NOTE: use this to see the CSV data
-// function render_CSV_table($filepath) {
-//   $fileHandle = fopen($filepath, "r");
-//   $html = '<table>';
-//   while (($row = fgetcsv($fileHandle, 0, ",")) !== FALSE) {
-//     $html .= '<tr>';
-//     foreach ($row as $col ) {
-//       $html .= '<td>';
-//       $html .= $col;
-//       $html .= '</td>';      
-//     }
-//     $html .= '</tr>';
-//   }
-//   $html .= '<table>';
-//   return $html;
-// }
-
-
+function export_csv() {
+  $args = [
+    'post_type' => 'product',
+    'posts_per_page' => -1,
+    'meta_query' => [
+      'meta_query' => array(
+        array(
+          'key' => FMMH_OPTION_METAKEY,
+          'compare' => 'EXISTS',
+        )
+      ) 
+    ]
+  ];
+  $search_query = new WP_Query( $args );
+  if ( $search_query->have_posts() ):
+    $rows = [];
+    while ( $search_query->have_posts() ) {
+      $search_query->the_post();
+        $slug = get_post_field( 'post_name', get_the_ID() );
+        $customOptions = get_post_meta( get_the_ID(), FMMH_OPTION_METAKEY, $metaVal );
+        foreach($customOptions[0] as $option => $choice) {
+          $rowData = [
+            'slug' => $slug,
+            'option' => $option,
+          ];
+          foreach($choice[0] as $key => $val) {
+            $rowData[$key] = $val;
+          }
+          $rows[] = $rowData;
+        }
+    }
+    $filename = "export.csv";
+    $delimiter=",";
+    $f = fopen('php://memory', 'w'); 
+    fputcsv($f, array_keys($rows[0]), $delimiter); // header row
+    foreach ($rows as $line) { 
+      fputcsv($f, array_values($line), $delimiter); 
+    }
+    fseek($f, 0);
+    header('Content-Type: application/csv');
+    header('Content-Disposition: attachment; filename="'.$filename.'";');
+    fpassthru($f);
+  endif; 
+  exit;
+}
