@@ -119,17 +119,24 @@ function export_csv() {
           $rows[] = $rowData;
         }
     }
-    $filename = "export.csv";
+
     $delimiter=",";
-    $f = fopen('php://memory', 'w'); 
-    fputcsv($f, array_keys($rows[0]), $delimiter); // header row
-    foreach ($rows as $line) { 
-      fputcsv($f, array_values($line), $delimiter); 
-    }
-    fseek($f, 0);
+    header('Content-Description: File Transfer');
     header('Content-Type: application/csv');
-    header('Content-Disposition: attachment; filename="'.$filename.'";');
-    fpassthru($f);
+    header("Content-Disposition: attachment; filename=page-data-export.csv");
+    header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+
+    $handle = fopen('php://output', 'w');
+    ob_clean(); // clean slate
+
+    foreach ($rows as $line) { 
+      fputcsv($handle, array_values($line), $delimiter); 
+    }
+
+    ob_flush(); // dump buffer
+    fclose($handle);
   endif; 
+  
+  die();
   exit;
 }

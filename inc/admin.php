@@ -37,7 +37,6 @@ function fmmh_home_options_admin_html() {
         <form action="<?php echo esc_attr( admin_url( 'admin-ajax.php' ) ); ?>" method="post" enctype="multipart/form-data">
           <input type="hidden" name="action" value="fmmh_home_options_actions" />
           <input type="hidden" name="do" value="export_csv" />
-          <input type="hidden" name="redirect" value='admin.php?page=fmmh-home-options' />        
           <input type="submit" value="Export CSV" name="submit" class="button button-primary">
         </form>
       </div>
