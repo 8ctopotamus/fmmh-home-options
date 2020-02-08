@@ -106,20 +106,23 @@ function export_csv() {
     $rows = [];
     while ( $search_query->have_posts() ) {
       $search_query->the_post();
-        $slug = get_post_field( 'post_name', get_the_ID() );
-        $customOptions = get_post_meta( get_the_ID(), FMMH_OPTION_METAKEY, $metaVal );
-        foreach($customOptions[0] as $option => $choice) {
+      $slug = get_post_field( 'post_name', get_the_ID() );
+      $customOptions = get_post_meta( get_the_ID(), FMMH_OPTION_METAKEY, $metaVal );
+      foreach($customOptions[0] as $option => $choices) {
+        foreach($choices as $key => $val) {
           $rowData = [
             'slug' => $slug,
             'option' => $option,
           ];
-          foreach($choice[0] as $key => $val) {
-            $rowData[$key] = $val;
+          // $rowData[$key] = $val;
+          foreach ($val as $label => $data) {
+            $rowData[$label] = $data;
           }
           $rows[] = $rowData;
         }
+      }
     }
-
+    
     $delimiter=",";
     header('Content-Description: File Transfer');
     header('Content-Type: application/csv');
@@ -129,6 +132,7 @@ function export_csv() {
     $handle = fopen('php://output', 'w');
     ob_clean(); // clean slate
 
+    fputcsv($handle, array_keys($rows[0]), $delimiter); // header row
     foreach ($rows as $line) { 
       fputcsv($handle, array_values($line), $delimiter); 
     }
@@ -138,5 +142,4 @@ function export_csv() {
   endif; 
   
   die();
-  exit;
 }
